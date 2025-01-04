@@ -1,0 +1,24 @@
+:root {
+
+    --color-primary: #1e3266;
+    --color-secondary: #ff68d4;
+    --color-light-bg: #ffffff;
+    --color-dark-bg: #141932;
+
+    --gradient-top: linear-gradient(to bottom, #ffffff, #1e3266);
+    --gradient-bottom: linear-gradient(to right, #ff9eda, #d9aefb, #9df7e5);
+
+    --text-color-dark: #3a3a3a;
+    --text-color-light: #ffffff;
+
+    --accent-blue: #2196f3;
+    --accent-light: #e7f7ff;
+
+    --shadow-color: rgba(0, 0, 0, 0.1);
+
+    --white-color: white;
+    --black-color: black;
+    --color-chat-input: linear-gradient(to right, #ff9eda, #8645e8, #33f3f3);
+
+    --color-arrow: linear-gradient(to right, #a4f4ff, #00d4ff);
+}
