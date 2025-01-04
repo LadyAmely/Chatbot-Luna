@@ -3,4 +3,4 @@ A sleek and modern chatbot interface designed to provide a friendly and interact
 
 ---
 
-[main-page]("https://github.com/LadyAmely/Chatbot-Luna/blob/master/src/assets/images/main-page.png")
+![main-page](https://github.com/LadyAmely/Chatbot-Luna/blob/master/src/assets/images/main-page.png)
