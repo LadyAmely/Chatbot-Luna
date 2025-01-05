@@ -1,55 +1,52 @@
 .chat-history-container {
-    width: 80%;
-    height: 100px;
+    width: 60%;
+    height: 70px;
     background: #e6f7ff;
-    border-radius: 20px;
+    border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 15px;
     position: relative;
-    box-shadow: 0 10px 20px rgba(175, 139, 228, 0.35);
-
+    box-shadow: 0 7px 14px rgba(175, 139, 228, 0.35);
 }
-
 
 .container-left {
     margin-left: 0;
-    width: 200px;
+    width: 150px;
     display: flex;
-    gap: 15px;
+    gap: 10px;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-
 .message-text {
     color: #333333;
     font-family: 'Nunito', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
-    letter-spacing: 0.7px;
+    letter-spacing: 0.5px;
 }
 
 .message-close-icon {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     background: linear-gradient(to right, #a4f4ff, #00d4ff);
     border-radius: 50%;
-     box-shadow: 0 0 20px rgba(11, 230, 250, 0.94), 0 0 20px rgba(0, 212, 255, 0.6);
+    box-shadow: 0 0 15px rgba(11, 230, 250, 0.94), 0 0 15px rgba(0, 212, 255, 0.6);
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 18px;
+    font-size: 14px;
     cursor: pointer;
 }
 
 .message-close-icon:hover,
 .message-close-icon:focus {
-    box-shadow: 0 0 10px rgba(0, 212, 255, 0.8), 0 0 20px rgba(0, 212, 255, 0.6);
-    transform: scale(1.1);
+    box-shadow: 0 0 7px rgba(0, 212, 255, 0.8), 0 0 15px rgba(0, 212, 255, 0.6);
+    transform: scale(1.05);
     filter: brightness(1.2);
 }
 
